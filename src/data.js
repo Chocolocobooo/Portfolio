@@ -1,4 +1,4 @@
-export const NAV_LINKS = ['About', 'Skills', 'Experience', 'Education', 'Contact']
+export const NAV_LINKS = ['About', 'Skills', 'Projects', 'Experience', 'Education', 'Contact']
 
 export const PERSONAL = {
   name: 'Maya Nguyen',
@@ -9,6 +9,30 @@ export const PERSONAL = {
   bio: 'Fast learner and driven developer currently studying full-stack .NET at EC Utbildning. I adapt quickly to new environments and bring genuine commitment to every team I join.',
   interests: ['Programming', 'Singing', 'Fashion'],
 }
+
+export const PROJECTS = [
+  {
+    title: 'Project Title',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, in dictum ipsum mi id ipsum Dummy Text Generator | Lorem ipsum for webdesigners. Aenean commodo ligula eget dolor. Aenean massa.',
+    tags: ['React', 'C#', '.NET'],
+    github: '#',
+    live: null,
+  },
+  {
+    title: 'Project Title',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, in dictum ipsum mi id ipsum Dummy Text Generator | Lorem ipsum for webdesigners. Aenean commodo ligula eget dolor. Aenean massa.',
+    tags: ['ASP.NET', 'SQL', 'CSS'],
+    github: '#',
+    live: null,
+  },
+  {
+    title: 'Project Title',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, in dictum ipsum mi id ipsum Dummy Text Generator | Lorem ipsum for webdesigners. Aenean commodo ligula eget dolor. Aenean massa.',
+    tags: ['JavaScript', 'HTML', 'CSS'],
+    github: '#',
+    live: null,
+  },
+]
 
 export const SKILLS = [
   { name: 'Programming'},

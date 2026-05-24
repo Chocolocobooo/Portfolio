@@ -746,3 +746,121 @@ input::placeholder, textarea::placeholder {
 @media (max-width: 480px) {
   .skills-cards { grid-template-columns: repeat(2, 1fr); }
 }
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  display: flex; 
+  flex-direction: column; gap: 20px;
+  transition: border-color var(--ease), transform var(--ease);
+}
+
+.project-card:hover { 
+  border-color: var(--border-hover); 
+  transform: translateY(-4px); 
+}
+
+.project-card__top {
+  display: flex; 
+  align-items: flex-start;
+  justify-content: space-between; 
+  gap: 12px;
+}
+
+.project-card__icon {
+  font-size: 2rem;
+  width: 52px; 
+  height: 52px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: var(--bg-chip);
+  border: 1px solid var(--border);
+  border-radius: 10px; 
+  flex-shrink: 0;
+}
+
+.project-card__tags  { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 6px; 
+  justify-content: flex-end; 
+}
+
+.project-card__body  { 
+  flex: 1; 
+}
+
+.project-card__title { 
+  font-size: 1.15rem; 
+  color: var(--text); 
+  margin-bottom: 10px; 
+}
+
+.project-card__desc  { 
+  font-size: 14px; 
+  color: var(--text-muted); 
+  line-height: 1.7; 
+}
+
+.project-card__links {
+  display: flex; 
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.project-card__link {
+  display: inline-flex; 
+  align-items: center; 
+  gap: 6px;
+  font-size: 13px; 
+  font-weight: 500;
+  color: var(--text-faint);
+  transition: color var(--ease); 
+  text-decoration: none;
+}
+
+.project-card__link:hover { 
+  color: var(--text); 
+  text-decoration: none; 
+}
+
+.project-card__link--accent { 
+  color: var(--accent); 
+}
+
+.project-card__link--accent:hover { 
+  color: var(--accent-light); 
+}
+
+.project-card__link-icon { 
+  font-size: 14px; 
+}
+
+.projects__note {
+  font-size: 13px; 
+  color: var(--text-dim);
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: 8px; 
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+@media (max-width: 900px) { 
+  .projects__grid { grid-template-columns: repeat(2, 1fr); } 
+}
+
+@media (max-width: 560px) { 
+  .projects__grid { grid-template-columns: 1fr; } 
+}
