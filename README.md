@@ -11,6 +11,24 @@ Live demo: https://portfolio-seven-roan-55.vercel.app
 - Reusable components
 - Clean and scalable code structure
 
+## Installation & Setup
+Clone the repository:
+
+```bash
+https://github.com/Chocolocobooo/Portfolio.git
+```
+
+Install dependencies: 
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
 ## Future Improvements
 
 Planned future features and improvements:
