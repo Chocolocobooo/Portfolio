@@ -91,12 +91,6 @@ function Contact() {
               </a>
             </div>
             <div className="contact-row">
-              <span className="contact-label">Phone</span>
-              <a href={`tel:${PERSONAL.phone}`} className="contact-link">
-                {PERSONAL.phone}
-              </a>
-            </div>
-            <div className="contact-row">
               <span className="contact-label">Location</span>
               <span className="contact-value">{PERSONAL.location}</span>
             </div>
